@@ -1,0 +1,11 @@
+{
+  "name": "owasp-asst-with-docker",
+  "version": "1.0.0",
+  "description": "OWASP ASST  Version with Docker",
+  "main": "main.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "mathjs": "^9.5.0",
+    "n": "^7.2.1"
+  }
+}

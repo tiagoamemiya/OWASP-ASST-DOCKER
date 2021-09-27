@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  webserver:
+    container_name: asst-app
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    ports:
+      - '8080:80'
+    volumes:
+      - ./src/ASST:/app/ASST
+      - ./src/projectToScan:/app/projectToScan
+      - ./docker/site.conf:/etc/apache2/sites-available/000-default.conf
