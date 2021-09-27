@@ -7,14 +7,14 @@ To read the original Readme File or check the original repository: [OWASP ASST](
 
 This version runs with Docker, next follow commands to start, configure, run the toolkit and see the report.
 
-### COMMANDS
+### Commands
 ------------
 
 1. Start Container and install node dependencies:
 
 ```shell
-	docker-compose up -d
-	docker exec -it asst-app npm install --prefix ./ASST
+docker-compose up -d
+docker exec -it asst-app npm install --prefix ./ASST
 
 ```
 
