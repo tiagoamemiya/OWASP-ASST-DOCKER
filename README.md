@@ -3,7 +3,7 @@ OWASP ASST (Automated Software Security Toolkit) version to run with Docker.
 
 First of all, special thanks to @Tarık Seyceri for awesome job with the original project.
 
-To read the original Readme File: [README](./ASST/README.md) or check the original repository: [OWASP ASST](https://github.com/OWASP/ASST).
+To read the original Readme File or check the original repository: [OWASP ASST](https://github.com/OWASP/ASST).
 
 This version runs with Docker, next follow commands to start, configure, run the toolkit and see the report.
 
