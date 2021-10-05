@@ -29,7 +29,7 @@ docker exec -it asst-app node ./ASST/main.js my-app
 **IMPORTANT:** `my-app` param needs to be the same directory name project to scan. A `example-app` already exists with a sample php file for example, you can remove it.
 
 4. See the report and reference docs:
-- Report: http://localhost:808
+- Report: http://localhost:8080
 - Some Doc example link: http://localhost:8080/app/ASST/langs/php/docs/php_cross_site_request_forgery_prevention.pdf
 
 ### Some Notes and Improvement
